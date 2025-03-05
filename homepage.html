@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incredible India</title>
+   <style>* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefae0;
+    color: #4d2d12;
+}
+.navbar {
+    height: 140px;
+    width: 100%;
+    background-color: #dda15e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.wel {
+    font-size: 50px;
+    color: #472a11;
+}
+.wel2 {
+    font-size: 20px;
+    color: #613915;
+}
+.anc {
+    margin-top: 10px;
+}
+.anc2 {
+    margin: 10px;
+    color: #4d2d12;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #fefae0;
+    border-radius: 5px;
+    display: inline-block;
+}
+.anc2:hover {
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+    background-color: #613915;
+    color: #f1d2a6;
+}
+.anc3 {
+    margin: 10px;
+    background-color: #613915;
+    color: #f1d2a6;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: inline-block;
+}
+.anc3:hover {
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+    background-color: #613915;
+    color: #f1d2a6;
+}
+
+.supermain{
+    background-color: rgb(255, 255, 255);
+}
+.main {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1d2a6;
+}
+.line1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.content-section {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+.content-section img {
+    display: block;
+    margin: 10px auto;
+   
+    height: auto;
+}
+.content-section p, ul, ol {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #dda15e;
+    margin-top: 20px;
+}
+.lino{
+    text-align: center;
+}
+
+
+img {
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    transition: transform 0.5s ease-in-out; /* Transition for smooth scaling */
+}
+
+img:hover {
+    transform: scale(1.05); /* Image expands */
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+    .wel {
+        font-size: 30px;
+    }
+    .wel2 {
+        font-size: 16px;
+    }
+    .anc2, .anc3 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .main {
+        width: 100%;
+        padding: 10px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="wel">Welcome to Incredible India</p>
+        <h5 class="wel2">Discover the diversity, beauty, and rich heritage of India!</h5>
+        <div class="anc">
+            <a class="anc3" href="http://127.0.0.1:5500/PROJECT/homepage.html">Home</a>
+            <a class="anc2" href="http://127.0.0.1:5500/PROJECT/culture.html">Culture</a>
+            <a class="anc2" href="http://127.0.0.1:5500/PROJECT/Landmarks.html">Landmarks</a>
+            <a class="anc2" href="http://127.0.0.1:5500/PROJECT/cuisine.html">Cuisine</a>
+            <a class="anc2" href="http://127.0.0.1:5500/PROJECT/contactus.html">Contact Us</a>
+        </div>
+    </div>
+    <div class="supermain">
+    <div class="main">..
+        <h2 class="line1">About India</h2>
+        <div class="content-section">
+            <p>India is a land of incredible diversity. From the snow-capped peaks of the <i>Himalayas</i> to the serene backwaters of Kerala, every corner of India tells a unique story.</p>
+            <br>
+            <img src="india_map.jpg" alt="India Map">
+            <br>
+            <p><b>Highlights of India include:</b></p>
+            <ul>
+                <li><b>Architecture:</b> Majestic monuments like the Taj Mahal and Red Fort.</li>
+                <li><b>Cuisine:</b> Diverse flavors from spicy curries to sweet desserts.</li>
+                <li><b>Culture:</b> Vibrant festivals, classical dances, and colorful attire.</li>
+            </ul>
+        </div>
+        <h2>Famous Landmarks</h2>
+        <div class="content-section">
+            <p>India is home to <mark>29 UNESCO World Heritage</mark> Sites.</p>
+            <br>
+            <img src="tajmahal.jpg" alt="Taj Mahal">
+            <br>
+            <p class="lino">The Taj Mahal, a symbol of eternal love.</p>
+            <br>
+            <img src="qutubminar.jpg" alt="Qutub Minar">
+            <br>
+            <p class="lino">The Qutub Minar, an architectural marvel in Delhi.</p>
+        </div>
+        <h2>Indian Culture</h2>
+        <div class="content-section">
+            <p>India’s cultural heritage is a blend of various traditions, languages, and religions.</p>
+            <ul>
+                <li><i>Classical Dances:</i> Bharatanatyam, Kathak, and Odissi.</li>
+                <li><i>Music:</i> Traditional instruments like the sitar, tabla, and veena.</li>
+                <li><i>Festivals:</i> Diwali, Holi, Eid, and Christmas.</li>
+            </ul>
+            <br>
+            <img src="dance.jpg" alt="Indian Classical Dance">
+            <br>
+        </div>
+        <h2>Delicious Indian Cuisine</h2>
+        <div class="content-section">
+            <p>Indian food is as diverse as its culture. Popular dishes include:</p>
+            <ul>
+                <li><b>North Indian:</b> Butter chicken, naan, and paneer tikka.</li>
+                <li><b>South Indian:</b> Dosa, idli, and sambhar.</li>
+                <li><b>Street Food:</b> Pani puri, chaat, and vada pav.</li>
+            </ul>
+            <br>
+            <img src="biryani.jpg" alt="Hyderabadi Biryani">
+            <br>
+            <p class="lino">Delicious Hyderabadi Biryani.</p>
+            <br>
+            <img src="street_food.jpg" alt="Indian Street Food">
+            <br>
+            <p class="lino">Colorful and flavorful Indian street food.</p>
+        </div>
+    </div>
+</div>
+    <div class="footer">
+        <p>Contact us at <a href="http://127.0.0.1:5500/PROJECT/contactus.html">info@incredibleindia.com</a></p>
+        <p>&copy; 2025 Incredible India Project. All rights reserved.</p>
+        <p>Follow us on: <a href="https://www.facebook.com/">Facebook</a> | <a href="https://x.com">Twitter</a></p>
+    </div>
+</body>
+</html>

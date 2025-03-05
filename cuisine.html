@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuisine</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fefae0;
+            color: #4d2d12;
+        }
+        .navbar {
+            height: 140px;
+            width: 100%;
+            background-color: #dda15e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        .wel {
+            font-size: 50px;
+            color: #472a11;
+        }
+        .wel2 {
+            font-size: 20px;
+            color: #613915;
+        }
+        .anc {
+    margin-top: 10px;
+}
+.anc2 {
+    margin: 10px;
+    color: #4d2d12;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #fefae0;
+    border-radius: 5px;
+    display: inline-block;
+}
+.anc2:hover {
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+    background-color: #613915;
+    color: #f1d2a6;
+}
+.anc3 {
+    margin: 10px;
+    background-color: #613915;
+    color: #f1d2a6;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: inline-block;
+}
+.anc3:hover {
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+    background-color: #613915;
+    color: #f1d2a6;
+}
+        .supermain {
+            background-color: rgb(255, 255, 255);
+        }
+        .main {
+            width: 1000px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #f1d2a6;
+        }
+        .line1 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+        .content-section {
+            margin: 20px auto;
+            width: 80%;
+            text-align: left;
+        }
+        .content-section img {
+            display: block;
+            margin: 10px auto;
+            max-width: 90%;
+            height: auto;
+            border-radius: 20px;
+            transition: transform 0.5s ease-in-out;
+        }
+        .content-section img:hover {
+            transform: scale(1.05);
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        .content-section p, ul {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #dda15e;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+    .wel {
+        font-size: 30px;
+    }
+    .wel2 {
+        font-size: 16px;
+    }
+    .anc2, .anc3 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .main {
+        width: 100%;
+        padding: 10px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="wel">Indian Cuisine</p>
+        <h5 class="wel2">Experience the diverse flavors of India.</h5>
+        <div class="anc">
+            <a class="anc2" href="homepage.html">Home</a>
+            <a class="anc2" href="culture.html">Culture</a>
+            <a class="anc2" href="Landmarks.html">Landmarks</a>
+            <a class="anc3" href="cuisine.html">Cuisine</a>
+            <a class="anc2" href="contactus.html">Contact Us</a>
+        </div>
+    </div>
+    <div class="supermain">
+    <div class="main">
+        <h2 class="line1">Popular Indian Dishes</h2>
+        <div class="content-section">
+            <p>Explore the flavors of India through its diverse and rich culinary traditions!</p>
+            <ul>
+                <li><b>Biryani:</b> A fragrant rice dish with spices and meat or vegetables.</li>
+                <li><b>Butter Chicken:</b> A creamy, tomato-based curry loved worldwide.</li>
+                <li><b>Paneer Tikka:</b> Grilled, marinated paneer cubes.</li>
+            </ul>
+            <img src="biryani.jpg" alt="Aromatic Biryani">
+        </div>
+        <h2>South Indian Cuisine</h2>
+        <div class="content-section">
+            <p>Delicious South Indian specialties:</p>
+            <ul>
+                <li><b>Masala Dosa:</b> A crispy rice crepe filled with spicy potatoes.</li>
+                <li><b>Idli and Sambar:</b> Soft rice cakes with tangy lentil stew.</li>
+                <li><b>Chettinad Chicken:</b> A fiery chicken dish from Tamil Nadu.</li>
+            </ul>
+            <img src="dosa.jpg" alt="Masala Dosa">
+        </div>
+        <h2>Sweet Delights</h2>
+        <div class="content-section">
+            <p>No meal is complete without desserts:</p>
+            <ul>
+                <li><b>Gulab Jamun:</b> Fried milk solids soaked in sugar syrup.</li>
+                <li><b>Rasgulla:</b> Spongy cheese balls in syrup.</li>
+                <li><b>Payasam:</b> A sweet South Indian milk-based dessert.</li>
+            </ul>
+            <img src="gulab_jamun.jpg" alt="Gulab Jamun">
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <p>Contact us at <a href="mailto:info@incredibleindia.com">info@incredibleindia.com</a></p>
+        <p>&copy; 2025 Incredible India Project. All rights reserved.</p>
+        <p>Follow us on: <a href="https://www.facebook.com/">Facebook</a> | <a href="https://x.com">Twitter</a></p>
+    </div>
+</body>
+</html>

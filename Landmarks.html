@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landmarks</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fefae0;
+            color: #4d2d12;
+        }
+        .navbar {
+            height: 140px;
+            width: 100%;
+            background-color: #dda15e;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        .wel {
+            font-size: 50px;
+            color: #472a11;
+        }
+        .wel2 {
+            font-size: 20px;
+            color: #613915;
+        }
+        .anc {
+    margin-top: 10px;
+}
+.anc2 {
+    margin: 10px;
+    color: #4d2d12;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #fefae0;
+    border-radius: 5px;
+    display: inline-block;
+}
+.anc2:hover {
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+    background-color: #613915;
+    color: #f1d2a6;
+}
+.anc3 {
+    margin: 10px;
+    background-color: #613915;
+    color: #f1d2a6;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: inline-block;
+}
+.anc3:hover {
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.2);
+    background-color: #613915;
+    color: #f1d2a6;
+}
+        .supermain {
+            background-color: rgb(255, 255, 255);
+        }
+        .main {
+            width: 1000px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            background-color: #f1d2a6;
+        }
+        .line1 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+        .content-section {
+            margin: 20px auto;
+            width: 80%;
+            text-align: left;
+        }
+        .content-section img {
+            display: block;
+            margin: 10px auto;
+            max-width: 90%;
+            height: auto;
+            border-radius: 20px;
+            transition: transform 0.5s ease-in-out;
+        }
+        .content-section img:hover {
+            transform: scale(1.05);
+            box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+        .content-section p, ul {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #dda15e;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+    .wel {
+        font-size: 30px;
+    }
+    .wel2 {
+        font-size: 16px;
+    }
+    .anc2, .anc3 {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    .main {
+        width: 100%;
+        padding: 10px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="wel">Indian Landmarks</p>
+        <h5 class="wel2">Explore the iconic landmarks that define India's rich history and heritage.</h5>
+        <div class="anc">
+            <a class="anc2" href="homepage.html">Home</a>
+            <a class="anc2" href="culture.html">Culture</a>
+            <a class="anc3" href="Landmarks.html">Landmarks</a>
+            <a class="anc2" href="cuisine.html">Cuisine</a>
+            <a class="anc2" href="contactus.html">Contact Us</a>
+        </div>
+    </div>
+    <div class="supermain">
+    <div class="main">
+        <h2 class="line1">Famous Monuments</h2>
+        <div class="content-section">
+            <p>India is home to many historical and cultural landmarks:</p>
+            <ul>
+                <li><b>Taj Mahal:</b> A symbol of love, located in Agra.</li>
+                <li><b>Red Fort:</b> A historic fort in Delhi, showcasing Mughal architecture.</li>
+                <li><b>Hawa Mahal:</b> The Palace of Winds, an architectural wonder in Jaipur.</li>
+                <li><b>Charminar:</b> An iconic mosque in Hyderabad, a blend of history and grandeur.</li>
+            </ul>
+            <br>
+            <img src="redfort.jpg" alt="Red Fort - A Historic Wonder">
+        </div>
+        <h2>Indian States and Capitals</h2>
+        <div class="content-section">
+            <p>Here is a table of some states and their capitals:</p>
+            <table border="1px" color="black" align="center" cellspacing="0">
+                <tr>
+                    <th>State</th>
+                    <th>Capital</th>
+                    <th>Official Language</th>
+                </tr>
+                <tr>
+                    <td>Gujarat</td>
+                    <td>Gandhinagar</td>
+                    <td>Gujarati</td>
+                </tr>
+                <tr>
+                    <td>Maharashtra</td>
+                    <td>Mumbai</td>
+                    <td>Marathi</td>
+                </tr>
+                <tr>
+                    <td>Rajasthan</td>
+                    <td>Jaipur</td>
+                    <td>Hindi</td>
+                </tr>
+            </table>
+            <br>
+        </div>
+        <h2>Unique Attractions</h2>
+        <div class="content-section">
+            <p>India is full of unique attractions that showcase its diversity:</p>
+            <ul>
+                <li><b>Dal Lake Floating Post Office:</b> A unique post office on a lake.</li>
+                <li><b>Konark Sun Temple:</b> A temple shaped like a chariot.</li>
+                <li><b>Rann of Kutch:</b> A vast white desert offering breathtaking views.</li>
+                <li><b>Meenakshi Temple:</b> A colorful architectural wonder in Tamil Nadu.</li>
+            </ul>
+            <br>
+            <img src="dal_lake.jpg" alt="Floating Post Office - Dal Lake">
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <p>Contact us at <a href="mailto:info@incredibleindia.com">info@incredibleindia.com</a></p>
+        <p>&copy; 2025 Incredible India Project. All rights reserved.</p>
+        <p>Follow us on: <a href="https://www.facebook.com/">Facebook</a> | <a href="https://x.com">Twitter</a></p>
+    </div>
+</body>
+</html>
